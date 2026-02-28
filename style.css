@@ -1,15 +1,17 @@
-body {
-  background: #f2f2f7;
-  font-family: sans-serif;
-  padding: 10px;
+body { font-family: sans-serif; margin: 20px; background-color: #e6f7ff; }
+h1 { color: #0099ff; }
+label { display: block; margin-top: 10px; }
+input { margin: 5px 0; padding: 5px; border: 1px solid #0099ff; border-radius: 5px; }
+button { 
+  margin: 10px 0; 
+  padding: 5px 10px; 
+  background-color: #00ccff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
 }
-
-.card {
-  background: white;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 12px;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-}
+button:hover { background-color: #0099ff; }
+table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+th, td { border: 1px solid #0099ff; padding: 8px; text-align: left; }
+th { background-color: #b3ecff; }
